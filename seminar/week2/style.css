@@ -1,0 +1,92 @@
+body {
+  width: 100vw; /*view width*/
+  height: 100vh;
+  margin: 0; /*  전체에서 full screen */
+  background-color: rgb(180, 180, 180);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+article {
+  width: 300px;
+  height: 400px;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+.hi {
+  border: 10px solid rgb(255, 174, 0);
+}
+.moon {
+  border: 10px solid rgb(123, 209, 255);
+}
+.walk {
+  border: 10px solid rgb(130, 255, 207);
+  margin: 0 20px;
+}
+/* common section */
+section {
+  height: 320px;
+  height: 320px;
+  padding: 0 10px;
+}
+/* img */
+.hi img {
+  margin-left: -100px;
+  margin-top: -150px;
+}
+.moon img {
+  margin-left: -40px;
+  margin-top: -150px;
+}
+.walk img {
+  border-radius: 50%;
+  margin-top: -150px;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(210, 210, 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: rgb(77, 76, 76);
+  /* border-radius: 10px; */
+}
+.hi a {
+  background-color: rgb(255, 174, 0);
+  border-bottom: 5px solid rgb(139, 95, 0);
+}
+.moon a {
+  background-color: rgb(123, 209, 255);
+  border-bottom: 5px solid rgb(48, 82, 100);
+}
+.walk a {
+  background-color: rgb(130, 255, 207);
+  border-bottom: 5px solid rgb(40, 80, 65);
+}
+
+.hi a:active,
+.moon a:active,
+.walk a:active {
+  margin-bottom: -5px;
+  border-bottom: none;
+}

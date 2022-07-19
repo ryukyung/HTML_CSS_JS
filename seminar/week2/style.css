@@ -4,7 +4,6 @@ body {
   margin: 0; /*  전체에서 full screen */
   background-color: rgb(180, 180, 180);
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   color: white;
@@ -28,7 +27,6 @@ article {
 }
 /* common section */
 section {
-  height: 320px;
   height: 320px;
   padding: 0 10px;
 }

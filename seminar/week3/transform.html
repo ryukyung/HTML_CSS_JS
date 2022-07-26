@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transform</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        width: 400px;
+        border: 10px solid rgb(67, 93, 95);
+        border-radius: 50%;
+        transition: transform 3s ease-in-out;
+        background-color: rgb(190, 234, 239);
+      }
+      img:hover {
+        transform: rotateZ(360deg) scale(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./img/olaf1.png" alt="" />
+  </body>
+</html>
